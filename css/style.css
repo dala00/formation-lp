@@ -1,0 +1,20 @@
+.buttons img.android {
+  height: 59px;
+}
+
+.buttons img.ios {
+  margin-top: 9px;
+}
+
+.images img {
+  display: inline-block;
+  margin: 1rem;
+  width: 15%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .images img {
+    width: 80%;
+  }
+}
